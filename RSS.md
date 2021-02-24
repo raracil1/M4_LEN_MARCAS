@@ -102,3 +102,9 @@ Ejemplo:
 Después simplemente tendremos que ir agregando ítems a medida que vayamos publicando. 
 Es recomendable colocar el más nuevo como primer item para que queden ordenados cronológicamente.
 
+
+
+## EJERCICIOS
+
+- Crea un archivo RSS de contenidos Web (con 5 articulos). Agregarlo a una pagina web (html) y probar en distintos navegadores.
+- Realizar los 3 ejercicios de la wiki (1 , 2 y proyecto): https://wiket.esteveterradas.cat/index.php/Canals_de_continguts:_RSS
