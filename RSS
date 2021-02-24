@@ -36,8 +36,8 @@ Segundo:
 Información de nuestro canal
 El feed de RSS tiene que explicitar información del canal (channel) es decir, de nuestra web o podcast, en este caso. Entre las informaciones que podemos están el título (title) del canal, el link, y una descripción (description). Ya comenzamos a anidar las cajitas:
 
-<?xml version=»1.0″ encoding=»UTF-8″ ?>
-<rss version=»2.0″>
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
 
 <channel>
 
@@ -68,9 +68,8 @@ Fecha de publicación: <pubDate>…</pubDate>
 
 Nuestro XML quedaría de la siguiente manera:
 
-
-<?xml version=»1.0″ encoding=»UTF-8″ ?>
-<rss version=»2.0″>
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
 
 <channel>
 
@@ -94,7 +93,7 @@ Ejemplo:
 
 <head>
 
-<link rel="alternate" type="application/rss+xml" title=Mi primer RSS» href="archivo.rss»" />
+<link rel="alternate" type="application/rss+xml" title=Mi primer RSS» href="archivo.rss" />
 
 </head>
 
