@@ -1,4 +1,5 @@
-¿Que es RSS?
+#RSS
+##¿Que es RSS?
 El RSS es un formato basado en XML que permite encontrar aquella información que mejor se
 adapta a lo que el usuario desea, pero también ofrecerla de forma rápida y actualizada. 
 
@@ -22,9 +23,9 @@ Ventajas:
 • Es texto plano, por lo que es ligero y rapido para ser transmitido.
 • Mediante sidicacion, podemos filtrar la información que nos interesa de cada sitio web.
 
-¿Como crear nuestro propio RSS?
+##¿Como crear nuestro propio RSS?
 
-Primero:
+###Primero:
 Debemos especificar que el archivo es un xml, la codificación de caracteres, y que será un feed de RSS. Para ello al inicio de nuestro archivo escribiremos:
 
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -32,7 +33,7 @@ Debemos especificar que el archivo es un xml, la codificación de caracteres, y 
 
 </rss>
 
-Segundo:
+###Segundo:
 Información de nuestro canal
 El feed de RSS tiene que explicitar información del canal (channel) es decir, de nuestra web o podcast, en este caso. Entre las informaciones que podemos están el título (title) del canal, el link, y una descripción (description). Ya comenzamos a anidar las cajitas:
 
@@ -51,7 +52,7 @@ El feed de RSS tiene que explicitar información del canal (channel) es decir, d
 
 Las etiquetas se abren y se cierran: <title>…</title>. Todo lo que escribamos entre esas etiquetas será entendido como un título.
 
-Tercero:
+###Tercero:
 Agregamos los ítems
 Cada uno de los elementos que se irán actualizando se llama ítem y los incluimos con la etiqueta <item></item>. Cada ‘cajita’ item vuelve a tener adentro más información como:
 
@@ -86,7 +87,7 @@ Nuestro XML quedaría de la siguiente manera:
 
 </rss>
 
-
+###Cuarto:
 Por último, enlazar el archivo del fee (archivo.rss)d a nuestra página web. Es decir, debemos escribir en el cabezal de nuestra página web la dirección de nuestro rss. 
 
 Ejemplo:
