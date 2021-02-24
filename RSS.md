@@ -1,5 +1,5 @@
 # RSS
-##¿Que es RSS?
+## ¿Que es RSS?
 El RSS es un formato basado en XML que permite encontrar aquella información que mejor se
 adapta a lo que el usuario desea, pero también ofrecerla de forma rápida y actualizada. 
 
